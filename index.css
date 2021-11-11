@@ -1,0 +1,186 @@
+body{
+  padding-top: 65px;
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a{
+  text-decoration: none;
+}
+
+header{
+  top: 0;
+  left: 0;
+  padding-right: 10px;
+  padding-left: 10px;
+  position: fixed;
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 1);
+  z-index: 10000;
+}
+.Yellowtail{
+  font-family: Yellowtail;
+}
+.logo-img{
+  width:230px;
+  transition: all 0.5s;
+}
+.logo-img:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.container {
+  width: auto;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.header-senter a{
+color: white;
+margin-right: 5px;
+margin-left: 5px;
+}
+.header-senter{
+  float:left;
+  line-height: 65px;
+  padding-right:10px;
+  padding-left:10px ;
+  display: block;
+
+}
+.header-senter a{
+  padding:0 20px;
+}
+.introduction a{
+  float:left;
+  line-height: 65px;
+  padding:0 25px;
+  display: block;
+}
+.Joining a{
+  float:left;
+  line-height: 65px;
+  padding:0 25px;
+  display: block;
+}
+.Contact-me a{
+  float:left;
+  line-height: 65px;
+  padding:0 25px;
+  display: block;
+}
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(http://localhost/others/pictures/server.png);
+  background-size: cover;
+  background-color:skyblue;
+  color:rgb(255, 255, 255);
+  text-align: center;
+  font-weight: bolder;
+}
+.top-wrapper-back{
+  background-color:rgba(0,0,0,0.6)
+}
+.top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.top-wrapper p {
+  opacity: 0.8;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.header-left {
+  float: left;
+}
+
+.introduction{
+  float: left;
+  padding:0 0 10 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+.introduction:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.Joining{
+  float: left;
+  padding:0 0 10 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+.Joining:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.Contact-me{
+  float: left;
+  padding:0 0 10 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+.Contact-me:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  color:white;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+
