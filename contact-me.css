@@ -1,0 +1,116 @@
+body{
+    padding-top:65px;
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    top: 0;
+    left: 0;
+    padding-right: 10px;
+    padding-left:10px;
+    position: fixed;
+    height: 65px;
+    width: 100%;
+    background-color:rgba(34,49,52,1);
+    z-index: 100;
+}
+
+.container{
+    width: auto;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header-left{
+    float: left;
+}
+.logo-img{
+    width: 230px;
+    transition: all 0.5s;
+}
+
+.logo-img:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.header-senter{
+    padding :0 20px;
+    float:left;
+    line-height: 65px;
+    padding-right:10px;
+    padding-left:10px ;
+    display: block;
+}
+.header-senter a{
+    color: white;
+    padding: 0 20px;
+    margin: 0 5px;
+}
+.introduction a{
+    float:left;
+    line-height: 65px;
+    padding:0 25px;
+    display: block;
+  }
+
+.joining a{
+    float: left;
+    line-height:65px;
+    padding: 0 25px;
+    display:block;
+}
+.contact a{
+    float: left;
+    line-height:65px;
+    padding: 0 25px;
+    display:block;
+}
+.introduction{
+  float: left;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+.joining{
+    float: left;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+}
+
+.contact{
+    float: left;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+  }
+
+.introduction:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.joining:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+  
+.contact:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+}
+
+.header-right{
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+}
+
+.header-right:hover{
+    background-color: rgba(255,255,255,0.5);
+}
