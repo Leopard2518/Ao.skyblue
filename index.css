@@ -70,7 +70,7 @@ margin-left: 5px;
 }
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(http://localhost/others/pictures/server.png);
+  background-image: url(others/pictures/server.png);
   background-size: cover;
   background-color:skyblue;
   color:rgb(255, 255, 255);
